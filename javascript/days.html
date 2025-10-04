@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      let inputDays = 800;
+
+let years = Math.floor(inputDays / 365);
+let remainingDaysAfterYears = inputDays % 365;
+
+let months = Math.floor(remainingDaysAfterYears / 30);
+let remainingDays = remainingDaysAfterYears % 30;
+
+console.log(`${inputDays} days is approximately ${years} years, ${months} months, and ${remainingDays} days.`);
+
+        
+    </script>
+</body>
+</html>

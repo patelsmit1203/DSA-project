@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>non-primitive datatypes</h1>
+    <ul>
+        <li>object</li>
+        <li>function</li>
+        <li>array</li>
+    </ul>
+
+    <script>
+        // object is pair of key and values , and it's used to store multiple pairs of diffrent dataypes.
+
+       //use const with non-primitive dataypes.
+       const student={
+        "name":"janvi",
+        "roll_no":5,
+        'age':50,
+        phone_no:8965123047
+       }
+
+       console.log(student);
+       console.log(student.age);
+       console.log(student.phone_no);
+
+       //function is block of code,it have 2 steps 1)defination 2)call
+       //call it when you want to execute.
+       my_info();
+
+       function my_info(){
+        console.log("hello");
+        
+       }
+       
+       function sum(x,y){
+        console.log(x+y);
+        
+       }
+       sum(5,8);
+       sum(2,8);
+
+       //array ius used to store multiple values with same datatype
+       const age=[10,12,10,15]
+       console.log(age);
+       console.log(age[2]);
+       
+    </script>
+</body>
+</html>
